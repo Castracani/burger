@@ -59,7 +59,7 @@ var orm = {
     });
   },
 
-  updateOne: function(table, objColVals, condtion, cb) {
+  updateOne: function(table, objColVals, condition, cb) {
     var queryString = "UPDATE " + table;
 
     queryString += " SET ";
